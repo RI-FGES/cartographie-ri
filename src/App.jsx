@@ -361,6 +361,19 @@ const counts = {
           </div>
         </div>
       )}
+      <img
+        src="/FGES_logo_transparent2.png"
+        alt="FGES"
+        style={{
+          position: 'fixed',
+          bottom: '20px',
+          left: '20px',
+          height: '50px',
+          zIndex: 900,
+          opacity: 0.85,
+          pointerEvents: 'none'
+        }}
+      />
     </>
   )
 }

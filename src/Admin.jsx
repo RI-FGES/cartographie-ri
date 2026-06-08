@@ -206,7 +206,7 @@ export default function Admin() {
     return (
       <div className="admin-login">
         <div className="admin-login-box">
-          <div className="admin-login-logo">RI FGES</div>
+          <img src="/FGES_logo_transparent2.png" alt="FGES" style={{ height: '50px', marginBottom: '8px' }} />
           <h1>Espace Administrateur</h1>
           <p>Accès réservé au service des Relations Internationales</p>
           <div className="admin-login-field">
@@ -232,7 +232,7 @@ export default function Admin() {
 
       <div className="admin-header">
         <div className="admin-header-left">
-          <span className="admin-header-logo">RI FGES</span>
+          <img src="/FGES_logo_transparent2.png" alt="FGES" style={{ height: '32px' }} />
           <span className="admin-header-title">Espace Administrateur</span>
         </div>
         <div className="admin-header-right">
