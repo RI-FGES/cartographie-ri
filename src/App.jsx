@@ -193,7 +193,10 @@ const counts = {
   return (
     <>
       <MapContainer center={INITIAL_VIEW.coords} zoom={INITIAL_VIEW.zoom} style={{ position: 'fixed', inset: 0, zIndex: 1 }} zoomControl={false}>
-        <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" attribution="© CartoDB" />
+        <TileLayer 
+        url="https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png"
+        attribution="© Stadia Maps"
+        />
         <MapController flyTo={flyTo} />
         {visibleUnis.map(uni => (
           <TooltipMarker key={uni.id} uni={uni} onClick={handleMarkerClick} />
